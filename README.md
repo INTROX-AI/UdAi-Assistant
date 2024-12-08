@@ -2,7 +2,7 @@
 
 UdAi Assistant is an intelligent AI-driven tool designed to streamline and enhance school assemblies. Powered by Google's Gemini 1.5 Flash model, UdAi offers both text and voice interaction capabilities, making it an ideal companion for educational environments. Whether it's guiding prayer sessions, announcing achievements, or playing instructional videos, UdAi ensures seamless and engaging assembly experiences.
 
-![UdAi Interface](path_to_screenshot.png)
+![UdAi Interface]([path_to_screenshot.png](https://github.com/INTROX-AI/INTROX-AI/blob/eceefd0da19781bd943052b117ad97ed3fea77e1/assets/screenshotudai.jpeg))
 
 ## 🌟 Features
 

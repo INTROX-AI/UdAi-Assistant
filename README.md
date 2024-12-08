@@ -52,7 +52,7 @@ UdAi Assistant is an intelligent AI-driven tool designed to streamline and enhan
 
    - Go to [Google AI Studio](https://aistudio.google.com/)
    - Obtain your Google Generative AI API key.
-   - Create a `.env` file in the root directory and add your API key:
+   - Create a `.env` file in the root directory and add your API key(or replace the API variable{not secure for commercial use}):
 
      ```env
      GOOGLE_API_KEY=your_google_api_key_here

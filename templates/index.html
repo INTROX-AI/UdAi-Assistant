@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UdAi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>UdAi</h1>
+        </div>
+        <div class="content-wrapper">
+            <div id="video-container">
+                <img id="status-gif" src="{{ url_for('static', filename='listening.gif') }}" alt="Listening">
+            </div>
+            <div id="chat-container">
+                <div id="chat-box"></div>
+                <div id="input-container">
+                    <input type="text" id="user-input" placeholder="Ask me anything...">
+                    <div class="button-group">
+                        <button onclick="sendMessage()" class="send-btn">Send</button>
+                        <button id="voice-button" class="voice-btn">
+                            <img src="{{ url_for('static', filename='voice-icon.png') }}" alt="Voice">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            Made with ❤️ by <a href="https://github.com/Introx-ai">Introx-AI</a>/<a href="https://github.com/sachinbp1024">Sachinbp1024</a>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

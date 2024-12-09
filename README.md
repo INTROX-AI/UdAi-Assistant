@@ -30,7 +30,7 @@ UdAi Assistant is an intelligent AI-driven tool designed to streamline and enhan
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/udai-assistant.git
+   git clone https://github.com/Introx-ai/udai-assistant.git
    cd udai-assistant
    ```
 
@@ -72,5 +72,5 @@ UdAi Assistant is an intelligent AI-driven tool designed to streamline and enhan
 ## 📋 Requirements
 
 Ensure you have Python installed (preferably Python 3.7 or higher).
-
+Could modify the code to make it work with new Google AI Studio functions and grounding***(UPDATE WILL BE COMMITTED SOON)**
 Dependencies are listed in the `requirements.txt` file:
